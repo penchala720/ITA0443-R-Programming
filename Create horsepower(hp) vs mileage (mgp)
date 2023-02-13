@@ -1,0 +1,3 @@
+ggplot(data, aes(x=mpg, y=hp, color=vs)) +
+  geom_point() + ggtitle("Mileage vs Horsepower by Engine Shape")
+
